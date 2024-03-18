@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+#navbar{
+    background-color: aqua;
+    padding: 13px 14px;
+
+
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a {
+    color: white;
+    font-size: 30px;
+    font-weight: bolds;
+    text-decoration: none;
+    padding: 13px 30px;
+}
+#navbar li a :hover {
+    color: black;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+#introSection {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 35px;
+    align-items: center;
+    background: center/cover no-repeat url("/Static/ketan-rajput-n-g7dgwNZg4-unsplash.jpg");
+    height: 425px;
+    background-color: red;
+}
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px;
+}
+#missionSection{
+      height: 326px;
+      width: 67%;
+      margin: auto;
+
+}
+#missionSection h2{
+    padding-top: 12;
+    text-align: center;
+    font-style: italic;
+
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30;
+    margin: 23px 22px;
+    height: 209px;
+
+}
+.card h3{
+    text-align:  center;
+    margin: 12px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit; 
+}
+#sponsorsSection {
+    height: 300px;
+    background-color: rgb(87, 195, 203);
+
+}
+#sponsorsSection h2{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 12;
+}
+#sponsors{
+    height: 120px;
+    max-width: 100px;
+    margin: auto
+}
+
+.spImage{
+    height: 80px;
+    margin: 20px;
+}
+
+   
+#footer {
+    height: 100px;
+    background-color: black;
+
+}
